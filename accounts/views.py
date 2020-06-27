@@ -153,18 +153,6 @@ def placeOrder(request, id):
             return redirect('user-dashboard')
     return render(request, 'place-order.html', context)
 
-    # productDetail = AddProductModel.objects.get(pk=id)
-    # username = request.user
-    # print(str(productDetail) + "==================")
-    # form = PlaceOrderForm()
-    # if request.method == 'POST':
-    #     form = PlaceOrderForm(request.POST)
-    #     if form.is_valid():
-    #         form.save()
-    #         return redirect('user-dashboard')
-    #
-    # context = {'placeForm': form, 'productDetail': productDetail, 'username': username}
-    # return render(request, 'place-order.html', context)
 
 
 def showOrderHistory(request):
