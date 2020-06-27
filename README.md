@@ -1,22 +1,16 @@
 
- [***Stolen from***](https://github.com/shivamkumarchauhan/python-django)
- In this repository i created an order management system using python and django
+ ## Disclaimer!
+    This isnt my original work. I was searching for solutions and came across a wonderfull repo that helped me.
 
-**To Use this project run following command, use command prompt**
+ [***Original Repo***](https://github.com/shivamkumarchauhan/python-django)
 
-pip install virtualenvwrapper-win
-
-mkvirtualenv myvirtualenv
-
-# Switch your virtual environment using
-workon myvirtualenv
+I just added a few touches to make the whole process flow for my sake.
+Its amazing how simple and clear this repo is.
 
 # Install Django on virtual environment
 pip install Django
 
-After that run server using command 
-python manage.py runserver
-
+migrate and runserver
 
 After that login using
 
